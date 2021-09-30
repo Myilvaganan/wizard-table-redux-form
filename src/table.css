@@ -1,0 +1,28 @@
+input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+}
+
+td:not(:first-child) input {
+  text-align: center;
+}
+
+.InputDiv {
+  max-width: fit-content;
+  display: flex;
+}
+
+.Shade {
+  background-color: #cad4d4;
+}
+
+table,
+td,
+th {
+  border: 2px solid #aab7b8;
+  border-collapse: collapse;
+  background-color: white;
+}
