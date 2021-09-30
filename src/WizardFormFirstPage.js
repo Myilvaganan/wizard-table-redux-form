@@ -30,17 +30,18 @@ const WizardFormFirstPage = (props) => {
                           key={`SpendConfiguration[${trIndex}][${item}]`}
                           data-name={`${rows['partnerType']}${item}`}
                         >
-                          <div className="InputDiv">
-                            <Field
-                              name={`spendConfiguration[${rowIndex}][${item}]`}
-                              type="text"
-                              component={renderField}
-                              disableCell={
-                                rows[item] === '' ||
-                                rows[item] === rows['partnerType']
-                              }
-                            />
-                          </div>
+                          {/* <div className="InputDiv">
+                            {' '} */}
+                          <Field
+                            name={`spendConfiguration[${rowIndex}][${item}]`}
+                            type="text"
+                            component={renderField}
+                            disableCell={
+                              rows[item] === '' ||
+                              rows[item] === rows['partnerType']
+                            }
+                          />
+                          {/* </div> */}
                         </td>
                       );
                     })}

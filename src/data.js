@@ -32,7 +32,7 @@ export const spendConfiguration = {
       partnerType: 'Bank',
       partnerName: '',
       sharePercentage: '',
-      adModel: '',
+      adModel: 'dddddddddddddddddddd',
       adFee: ''
     }
   }

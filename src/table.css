@@ -1,28 +1,27 @@
-input {
-  height: 100%;
-  width: 100%;
-  border: none;
-  outline: none;
-  background-color: #ffffff;
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  text-align: center;
+  border: 1px solid #d1dbdb;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
+td input {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: white;
+}
 td:not(:first-child) input {
   text-align: center;
 }
 
-.InputDiv {
-  max-width: fit-content;
-  display: flex;
-}
-
 .Shade {
-  background-color: #cad4d4;
-}
-
-table,
-td,
-th {
-  border: 2px solid #aab7b8;
-  border-collapse: collapse;
-  background-color: white;
+  background-color: #ebf3f3;
+  border: 3px solid #ebf3f3;
 }

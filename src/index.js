@@ -11,7 +11,7 @@ const rootEl = document.getElementById('root');
 
 ReactDOM.render(
   <Provider store={store}>
-    <div style={{ padding: 15 }}>
+    <div>
       <h2>Wizard Example</h2>
       <WizardForm onSubmit={showResults} />
       <Values form="wizard" />
